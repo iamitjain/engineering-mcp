@@ -1,0 +1,20 @@
+server:
+  port: ${SERVER_PORT:3001}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+
+logging:
+  level:
+    com.company.engineering: DEBUG
+
+bitbucket:
+  url: ${BITBUCKET_URL:}
+  token: ${BITBUCKET_TOKEN:}
+
+jira:
+  url: ${JIRA_URL:}
+  token: ${JIRA_TOKEN:}
