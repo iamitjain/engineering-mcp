@@ -8,6 +8,9 @@ spring:
   ai:
     mcp:
       server:
+        endpoint: /mcp
+        stdio: false
         enabled: true
         name: engineering-mcp
         version: 1.0.0
+        protocol: STREAMABLE
