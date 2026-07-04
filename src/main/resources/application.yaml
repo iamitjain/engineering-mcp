@@ -4,3 +4,10 @@ spring:
 
   profiles:
     active: local
+
+  ai:
+    mcp:
+      server:
+        enabled: true
+        name: engineering-mcp
+        version: 1.0.0
